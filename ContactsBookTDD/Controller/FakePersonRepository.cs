@@ -7,27 +7,27 @@ namespace ContactsBookTDD.Controller
     {
         private List<Person> _persons = new List<Person>();
         
-        public void add(Person value)
+        public void Add(Person value)
         {
             throw new System.NotImplementedException();
         }
 
-        public List<Person> getAll()
+        public List<Person> GetAll()
         {
             throw new System.NotImplementedException();
         }
 
-        public Person getById(string id)
+        public Person GetById(string id)
         {
             throw new System.NotImplementedException();
         }
 
-        public void update(Person value)
+        public void Update(Person value)
         {
             throw new System.NotImplementedException();
         }
 
-        public void remove(Person value)
+        public void Remove(Person value)
         {
             throw new System.NotImplementedException();
         }

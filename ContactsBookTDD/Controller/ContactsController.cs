@@ -7,32 +7,32 @@ namespace ContactsBookTDD.Controller
     {
         private IRepository<Person> _personRepository;
 
-        internal ContactsController()
+        public ContactsController()
         {
             this._personRepository = new FakePersonRepository();
         }
         
-        public void createPerson(string name, string address = "", string email = "", string phoneNumber = "")
+        public void CreatePerson(string name, string address = "", string email = "", string phoneNumber = "")
         {
             throw new System.NotImplementedException();
         }
 
-        public List<Person> findPerson(string name)
+        public List<Person> FindPerson(string name)
         {
             throw new System.NotImplementedException();
         }
 
-        public List<Person> getAllPersons()
+        public List<Person> GetAllPersons()
         {
             throw new System.NotImplementedException();
         }
 
-        public void updatePerson(string name, string address = "", string email = "", string phoneNumber = "")
+        public void UpdatePerson(string id, string name, string address = "", string email = "", string phoneNumber = "")
         {
             throw new System.NotImplementedException();
         }
 
-        public void removePerson(string id)
+        public void RemovePerson(string id)
         {
             throw new System.NotImplementedException();
         }

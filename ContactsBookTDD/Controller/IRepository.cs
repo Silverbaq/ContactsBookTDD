@@ -5,14 +5,14 @@ namespace ContactsBookTDD.Controller
 {
     public interface IRepository<T>
     {
-        void add(T value);
+        void Add(T value);
         
-        List<T> getAll();
+        List<T> GetAll();
 
-        T getById(string id);
+        T GetById(string id);
 
-        void update(T value);
+        void Update(T value);
 
-        void remove(T value);
+        void Remove(T value);
     }
 }

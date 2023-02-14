@@ -86,7 +86,7 @@ namespace ContactsBookTDD.View
             
             try
             {
-                _contactController.createPerson(name:name, address: address, email: email, phoneNumber: phoneNumber);
+                _contactController.CreatePerson(name:name, address: address, email: email, phoneNumber: phoneNumber);
                 return 0;
             }
             catch
@@ -106,7 +106,7 @@ namespace ContactsBookTDD.View
 
             try
             {
-                List<Person> persons = _contactController.getAllPersons();
+                List<Person> persons = _contactController.GetAllPersons();
                 foreach (var person in persons)
                 {
                     Console.WriteLine(person.ToString());
